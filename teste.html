@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+</head>
+<body>
+    <script>
+        function cubo() {
+            //window.alert("teste")
+            var var1 = document.getElementById("val1");
+            var var2 = document.getElementById("val2");
+            //window.alert(var1.value + " " + var2.value)
+            document.getElementById("resultado").innerText = var1.value  ** 3;
+        }
+    </script>
+    <input id="val1" value="">
+    <input id="val2" value="3">
+    <button onclick="cubo()">Escrever</button>
+    <p id="resultado">XXXX</p>
+    <div class="temp">
+
+         <script>
+        function fahrenheitToCelsius() {
+            //window.alert("teste")
+            var F = document.getElementById("val10");
+            //window.alert(var1.value + " " + var2.value)
+            document.getElementById("res_F").innerText = (F.value - 32) * 5/9;
+        }
+    </script>
+    
+    <input id="val10" value="10">
+    <button onclick="fahrenheitToCelsius()">calcular fahrenheit para celsius </button>
+    <p id="res_F">XXXX</p>
+    </div>
+</body>
+</html>

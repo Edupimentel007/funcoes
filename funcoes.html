@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="poten"> 
+    <script>
+        function cubo(numero) {
+    return numero ** 3;
+  }
+   
+    </script>
+    </div>
+    <div class="temp"> 
+    <script>
+        function fahrenheitToCelsius(fahrenheit) {
+            let celsius = (fahrenheit - 32) * 5 / 9;
+            return celsius;
+          }
+    </script>
+    </div>
+    <div class="areaT">
+        <script>
+            function areaT(base, altura) {
+    let area = (base * altura) / 2;                                                                                                                                                                     return area;
+}
+
+        </script>
+    </div>
+    <div class="circulo">
+        <script>
+            function circulo(raio) {
+    const pi = 3.141519;
+    const area = pi * (raio ** 2);
+    return (area)
+}
+    function circulo(raio) {
+    const pi = 3.141519;
+    const perimetro = 2 * pi * raio;
+    return (perimetro)
+}
+        </script>
+    </div>
+    <div class="descon">
+        <script>
+            function desconto (valor) {
+    const desconto = valor * 0.05;
+    const subtração = valor * 0.05 - desconto;
+    return desconto;
+
+}
+        </script>
+    </div>
+    <div class="verificaIdade">
+        <script>
+            function verificaIdade(anoNascimento) {
+  const idade = new Date().getFullYear() - anoNascimento;
+  if (idade >= 18) {
+    return "Maior de idade";
+  } else {
+    return "Menor de idade";
+  }
+}
+        </script>
+    </div>
+    <div class="gasolina">
+        <script>
+            // pede ao usuário quanto de dinheiro ele tem
+const dinheiro = parseFloat(prompt("Quanto dinheiro você tem?"));
+
+// calcula a quantidade de litros de combustível que podem ser comprados
+const litros = dinheiro / 5;
+
+// calcula a quantidade de quilômetros que o carro pode andar com essa quantidade de combustível
+const km = litros * 20;
+
+// exibe o resultado na tela
+console.log(`Com R$ ${dinheiro.toFixed(2)}, você pode comprar ${litros.toFixed(2)} litros de combustível e andar ${km.toFixed(2)} km.`);
+
+        </script>
+    </div>
+</body>
+</html>
